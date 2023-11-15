@@ -1,6 +1,6 @@
 //Creating the variables for pizzaPlace and number of toppings
-let pizzaPlace = "Pizza Planet";
-var numberofToppings = 10;
+const pizzaPlace = "Pizza Planet";
+let numberofToppings = 10;
 
 //printing out the variables to the console
 console.log(pizzaPlace);
