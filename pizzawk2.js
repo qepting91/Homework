@@ -3,8 +3,8 @@ const pizzaPlace = "Pizza Planet";
 let numberofToppings = 10;
 
 //printing out the variables to the console
-console.log(pizzaPlace);
-console.log(numberofToppings);
+console.log(typeof pizzaPlace, pizzaPlace);
+console.log(typeof numberofToppings, numberofToppings);
 
 //template literal print statement
 console.log(
