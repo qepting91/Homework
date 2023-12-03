@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: whitesmoke;
+  background-color: #5c5c5e;
+
+}
+
+header, footer {
+  background-color: #004d99;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+main {
+  padding: 15px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#dynamic-content h2 {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 2px solid #004d99;
+}
+
+.bold-div-id {
+  font-weight: bold;
+}
+
+div > p {
+  font-weight: bold;
+  color: #004d99;
+}
+/* Class Selector */
+.dynamic-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* ID Selector */
+#dynamic-content {
+  margin-bottom: 15px;
+}
+
+/* Complex Selector */
+main p + a {
+  margin-right: 10px;
+}
