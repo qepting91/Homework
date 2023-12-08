@@ -1,0 +1,66 @@
+html {
+  background-color: antiquewhite;
+}
+
+body {
+  text-align: center;
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+img {
+  height: 100%;
+}
+
+div {
+  border: 2px solid burlywood;
+  margin: 10px;
+}
+
+#introPic {
+  float: left;
+}
+
+#bio {
+  float: right;
+}
+#bio > li {
+  padding: 2px;
+}
+
+#pro {
+  width: auto;
+}
+
+/*iphone 6/7/8 375x667  */
+@media only screen and (max-width: 375px) {
+  body {
+      font-size: 16px;
+  }
+
+  h1 {
+      font-size: 40px;
+  }
+
+  img {
+      width: 100%;
+      height: auto;
+  }
+
+  div {
+      margin: 5px;
+  }
+
+  #introPic, #bio {
+      float: none;
+      width: 100%;
+  }
+
+  #bio > li {
+      padding: 5px;
+  }
+
+}
